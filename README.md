@@ -11,7 +11,18 @@ npm ci
 npm start
 ```
 
-Åbn http://127.0.0.1:4173. Hvis afhængighederne allerede er installeret, er `npm start` nok. Skift port med `PORT=4174 npm start`. Serveren lytter kun på denne computer. Projektet er ikke publiceret.
+Åbn http://127.0.0.1:4173. Hvis afhængighederne allerede er installeret, er `npm start` nok. Skift port med `PORT=4174 npm start`. Serveren lytter kun på denne computer. Til lokal udvikling bruges kun `dev-server.mjs`.
+
+## Udgiv på Vercel
+
+```sh
+npm ci
+npm run build
+```
+
+Bygningen opretter `dist/` med den komplette statiske side, billeder, skrifter og de nødvendige GSAP-browsermoduler i `vendor/gsap/`. Ingen serverfunktion er nødvendig.
+
+`vercel.json` sætter Framework Preset til **Other**, Build Command til `npm run build`, Install Command til `npm ci` og Output Directory til `dist`. Konfigurationen følger repoet, så Vercel ikke forsøger at eksekvere browserkode som en Node-server. Browserens indgang hedder `game.js`; den lokale udviklingsserver hedder `dev-server.mjs`.
 
 ## Spillet
 
@@ -29,7 +40,7 @@ npm start
 
 ## Filer
 
-`BUILD-PROMPT.md` indeholder den detaljerede byggeprompt og research. `data.js` og `bank.js` indeholder svar og rotationslogik. `engine.js` har validering og score. `app.js` har spilforløbet. `world.js` har GSAP-kameraet. `assets/` indeholder original genereret spilgrafik og lokale skrifter.
+`BUILD-PROMPT.md` indeholder den detaljerede byggeprompt og research. `data.js` og `bank.js` indeholder svar og rotationslogik. `engine.js` har validering og score. `game.js` har spilforløbet. `world.js` har GSAP-kameraet. `assets/` indeholder original genereret spilgrafik og lokale skrifter.
 
 ## Motion og design
 
@@ -48,7 +59,7 @@ Impeccable kan installeres projektlokalt med `npx impeccable install`. Installer
 npm test
 ```
 
-Testene dækker alle svar og aliaser, automatisk stavekorrektion, tvetydige match, den præcise timer, dansk midnat, daglig udvælgelse, point, alle grundstoffer og spørgsmålsrotation over mange ture. Visuelle kontrolbilleder og lokale gennemgange gemmes i `.impeccable/review/` og er ikke versioneret.
+Testene kontrollerer også produktionsbygningens modulstier, medfølgende grafik og fravær af serverkode i udgivelsen. Derudover dækkes alle svar og aliaser, automatisk stavekorrektion, tvetydige match, den præcise timer, dansk midnat, daglig udvælgelse, point, alle grundstoffer og spørgsmålsrotation over mange ture. Visuelle kontrolbilleder og lokale gennemgange gemmes i `.impeccable/review/` og er ikke versioneret.
 
 Der indsamles ingen telemetri. Core Web Vitals er ikke målt som feltdata. Grafik genbruges som syv billedaktiver; aktive animationer bruger transform. Ingen WebGL, eksterne fontopslag eller serverkald ved indsendelse.
 

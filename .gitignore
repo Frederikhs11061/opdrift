@@ -17,3 +17,7 @@ node_modules/
 .vscode/
 .idea/
 coverage/
+
+# Generated static site and local Vercel state
+dist/
+.vercel/
