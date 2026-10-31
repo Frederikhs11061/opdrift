@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T22:22:48.406357+00:00",
+  "title": "Design System: OPDRIFT",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Amber",
+        "tonalRamp": [
+          "oklch(15.0% 0.0421 81.47)",
+          "oklch(26.0% 0.0830 81.47)",
+          "oklch(38.0% 0.1151 81.47)",
+          "oklch(50.0% 0.1293 81.47)",
+          "oklch(62.0% 0.1234 81.47)",
+          "oklch(74.0% 0.0983 81.47)",
+          "oklch(86.0% 0.0579 81.47)",
+          "oklch(95.0% 0.0213 81.47)"
+        ]
+      },
+      "button-light": {
+        "role": "primary",
+        "displayName": "Button Light",
+        "tonalRamp": [
+          "oklch(15.0% 0.0350 84.35)",
+          "oklch(26.0% 0.0690 84.35)",
+          "oklch(38.0% 0.0957 84.35)",
+          "oklch(50.0% 0.1075 84.35)",
+          "oklch(62.0% 0.1026 84.35)",
+          "oklch(74.0% 0.0817 84.35)",
+          "oklch(86.0% 0.0482 84.35)",
+          "oklch(95.0% 0.0177 84.35)"
+        ]
+      },
+      "button-gold": {
+        "role": "primary",
+        "displayName": "Button Gold",
+        "tonalRamp": [
+          "oklch(15.0% 0.0450 77.57)",
+          "oklch(26.0% 0.0887 77.57)",
+          "oklch(38.0% 0.1230 77.57)",
+          "oklch(50.0% 0.1382 77.57)",
+          "oklch(62.0% 0.1318 77.57)",
+          "oklch(74.0% 0.1050 77.57)",
+          "oklch(86.0% 0.0619 77.57)",
+          "oklch(95.0% 0.0228 77.57)"
+        ]
+      },
+      "button-ink": {
+        "role": "neutral",
+        "displayName": "Button Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0162 63.43)",
+          "oklch(26.0% 0.0320 63.43)",
+          "oklch(38.0% 0.0444 63.43)",
+          "oklch(50.0% 0.0498 63.43)",
+          "oklch(62.0% 0.0476 63.43)",
+          "oklch(74.0% 0.0379 63.43)",
+          "oklch(86.0% 0.0223 63.43)",
+          "oklch(95.0% 0.0082 63.43)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "tonalRamp": [
+          "oklch(15.0% 0.0107 89.84)",
+          "oklch(26.0% 0.0210 89.84)",
+          "oklch(38.0% 0.0291 89.84)",
+          "oklch(50.0% 0.0327 89.84)",
+          "oklch(62.0% 0.0312 89.84)",
+          "oklch(74.0% 0.0249 89.84)",
+          "oklch(86.0% 0.0147 89.84)",
+          "oklch(95.0% 0.0054 89.84)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.0% 0.0104 229.32)",
+          "oklch(26.0% 0.0204 229.32)",
+          "oklch(38.0% 0.0283 229.32)",
+          "oklch(50.0% 0.0318 229.32)",
+          "oklch(62.0% 0.0303 229.32)",
+          "oklch(74.0% 0.0242 229.32)",
+          "oklch(86.0% 0.0142 229.32)",
+          "oklch(95.0% 0.0052 229.32)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.0% 0.0090 208.27)",
+          "oklch(26.0% 0.0177 208.27)",
+          "oklch(38.0% 0.0245 208.27)",
+          "oklch(50.0% 0.0275 208.27)",
+          "oklch(62.0% 0.0263 208.27)",
+          "oklch(74.0% 0.0209 208.27)",
+          "oklch(86.0% 0.0123 208.27)",
+          "oklch(95.0% 0.0045 208.27)"
+        ]
+      },
+      "panel": {
+        "role": "secondary",
+        "displayName": "Panel",
+        "tonalRamp": [
+          "oklch(15.0% 0.0136 229.24)",
+          "oklch(26.0% 0.0268 229.24)",
+          "oklch(38.0% 0.0371 229.24)",
+          "oklch(50.0% 0.0417 229.24)",
+          "oklch(62.0% 0.0398 229.24)",
+          "oklch(74.0% 0.0317 229.24)",
+          "oklch(86.0% 0.0187 229.24)",
+          "oklch(95.0% 0.0069 229.24)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field",
+        "tonalRamp": [
+          "oklch(15.0% 0.0112 88.77)",
+          "oklch(26.0% 0.0220 88.77)",
+          "oklch(38.0% 0.0305 88.77)",
+          "oklch(50.0% 0.0343 88.77)",
+          "oklch(62.0% 0.0327 88.77)",
+          "oklch(74.0% 0.0261 88.77)",
+          "oklch(86.0% 0.0154 88.77)",
+          "oklch(95.0% 0.0057 88.77)"
+        ]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Secondary",
+        "tonalRamp": [
+          "oklch(15.0% 0.0131 220.36)",
+          "oklch(26.0% 0.0257 220.36)",
+          "oklch(38.0% 0.0357 220.36)",
+          "oklch(50.0% 0.0401 220.36)",
+          "oklch(62.0% 0.0383 220.36)",
+          "oklch(74.0% 0.0305 220.36)",
+          "oklch(86.0% 0.0180 220.36)",
+          "oklch(95.0% 0.0066 220.36)"
+        ]
+      },
+      "secondary-hover": {
+        "role": "secondary",
+        "displayName": "Secondary Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.0139 220.11)",
+          "oklch(26.0% 0.0274 220.11)",
+          "oklch(38.0% 0.0380 220.11)",
+          "oklch(50.0% 0.0427 220.11)",
+          "oklch(62.0% 0.0407 220.11)",
+          "oklch(74.0% 0.0324 220.11)",
+          "oklch(86.0% 0.0191 220.11)",
+          "oklch(95.0% 0.0070 220.11)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15.0% 0.0190 99.01)",
+          "oklch(26.0% 0.0375 99.01)",
+          "oklch(38.0% 0.0520 99.01)",
+          "oklch(50.0% 0.0584 99.01)",
+          "oklch(62.0% 0.0558 99.01)",
+          "oklch(74.0% 0.0444 99.01)",
+          "oklch(86.0% 0.0262 99.01)",
+          "oklch(95.0% 0.0096 99.01)"
+        ]
+      },
+      "tier-none": {
+        "role": "secondary",
+        "displayName": "Tier None",
+        "tonalRamp": [
+          "oklch(15.0% 0.0066 282.60)",
+          "oklch(26.0% 0.0130 282.60)",
+          "oklch(38.0% 0.0180 282.60)",
+          "oklch(50.0% 0.0202 282.60)",
+          "oklch(62.0% 0.0193 282.60)",
+          "oklch(74.0% 0.0154 282.60)",
+          "oklch(86.0% 0.0091 282.60)",
+          "oklch(95.0% 0.0033 282.60)"
+        ]
+      },
+      "tier-beginner": {
+        "role": "secondary",
+        "displayName": "Tier Beginner",
+        "tonalRamp": [
+          "oklch(15.0% 0.0096 231.57)",
+          "oklch(26.0% 0.0190 231.57)",
+          "oklch(38.0% 0.0263 231.57)",
+          "oklch(50.0% 0.0295 231.57)",
+          "oklch(62.0% 0.0282 231.57)",
+          "oklch(74.0% 0.0224 231.57)",
+          "oklch(86.0% 0.0132 231.57)",
+          "oklch(95.0% 0.0049 231.57)"
+        ]
+      },
+      "tier-practiced": {
+        "role": "secondary",
+        "displayName": "Tier Practiced",
+        "tonalRamp": [
+          "oklch(15.0% 0.0164 166.50)",
+          "oklch(26.0% 0.0323 166.50)",
+          "oklch(38.0% 0.0448 166.50)",
+          "oklch(50.0% 0.0503 166.50)",
+          "oklch(62.0% 0.0480 166.50)",
+          "oklch(74.0% 0.0383 166.50)",
+          "oklch(86.0% 0.0225 166.50)",
+          "oklch(95.0% 0.0083 166.50)"
+        ]
+      },
+      "tier-mid": {
+        "role": "secondary",
+        "displayName": "Tier Mid",
+        "tonalRamp": [
+          "oklch(15.0% 0.0217 139.00)",
+          "oklch(26.0% 0.0429 139.00)",
+          "oklch(38.0% 0.0594 139.00)",
+          "oklch(50.0% 0.0667 139.00)",
+          "oklch(62.0% 0.0637 139.00)",
+          "oklch(74.0% 0.0507 139.00)",
+          "oklch(86.0% 0.0299 139.00)",
+          "oklch(95.0% 0.0110 139.00)"
+        ]
+      },
+      "tier-rare": {
+        "role": "secondary",
+        "displayName": "Tier Rare",
+        "tonalRamp": [
+          "oklch(15.0% 0.0297 116.82)",
+          "oklch(26.0% 0.0585 116.82)",
+          "oklch(38.0% 0.0811 116.82)",
+          "oklch(50.0% 0.0911 116.82)",
+          "oklch(62.0% 0.0870 116.82)",
+          "oklch(74.0% 0.0693 116.82)",
+          "oklch(86.0% 0.0408 116.82)",
+          "oklch(95.0% 0.0151 116.82)"
+        ]
+      },
+      "tier-ultra-rare": {
+        "role": "secondary",
+        "displayName": "Tier Ultra Rare",
+        "tonalRamp": [
+          "oklch(15.0% 0.0250 60.73)",
+          "oklch(26.0% 0.0493 60.73)",
+          "oklch(38.0% 0.0684 60.73)",
+          "oklch(50.0% 0.0768 60.73)",
+          "oklch(62.0% 0.0733 60.73)",
+          "oklch(74.0% 0.0584 60.73)",
+          "oklch(86.0% 0.0344 60.73)",
+          "oklch(95.0% 0.0127 60.73)"
+        ]
+      },
+      "tier-legendary": {
+        "role": "secondary",
+        "displayName": "Tier Legendary",
+        "tonalRamp": [
+          "oklch(15.0% 0.0319 9.94)",
+          "oklch(26.0% 0.0628 9.94)",
+          "oklch(38.0% 0.0871 9.94)",
+          "oklch(50.0% 0.0979 9.94)",
+          "oklch(62.0% 0.0934 9.94)",
+          "oklch(74.0% 0.0744 9.94)",
+          "oklch(86.0% 0.0439 9.94)",
+          "oklch(95.0% 0.0162 9.94)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Painted title",
+        "purpose": "Home title in Lilita One; mobile sizing lives in the responsive source."
+      },
+      "headline": {
+        "displayName": "Question prompt",
+        "purpose": "Compact Lilita prompt within the control dock."
+      },
+      "title": {
+        "displayName": "Dialog title",
+        "purpose": "Supporting Lilita headings."
+      },
+      "body": {
+        "displayName": "Explanation",
+        "purpose": "Nunito Sans supporting paragraphs."
+      },
+      "label": {
+        "displayName": "Functional telemetry",
+        "purpose": "Final 11px minimum for supporting game data."
+      },
+      "button": {
+        "displayName": "Primary command",
+        "purpose": "Bold amber action labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "question-panel",
+        "value": "0 13px 40px #0a1b3466, inset 0 1px 0 #a6c3c32b",
+        "purpose": "Temporary question dock."
+      },
+      {
+        "name": "primary-action",
+        "value": "inset 0 2px 1px #fff0ba, 0 4px 1px #966232, 0 8px 16px #17283b55",
+        "purpose": "Local tactile button bevel."
+      },
+      {
+        "name": "utility",
+        "value": "0 4px 12px #0003",
+        "purpose": "Quiet icon-control elevation."
+      },
+      {
+        "name": "modal",
+        "value": "0 20px 100px #0009",
+        "purpose": "Dialog above the world."
+      },
+      {
+        "name": "flight-level-ladder",
+        "value": "0 8px 28px #0004",
+        "purpose": "A restrained shadow supporting the readable side tier panel over scenery."
+      }
+    ],
+    "motion": [
+      {
+        "name": "flight-duration",
+        "value": "4.8 + (to - from) * 0.034 seconds",
+        "purpose": "Earned ascent duration, owned by GSAP."
+      },
+      {
+        "name": "flight-ease",
+        "value": "power2.inOut",
+        "purpose": "Camera acceleration and deceleration."
+      },
+      {
+        "name": "cloud-parallax",
+        "value": "1.6, 1.8, 1.5",
+        "purpose": "Three foreground planes using assets/clouds-v2.png, each with 160px horizontal overscan and naturally bounded transparent silhouettes, relative to far-world displacement."
+      },
+      {
+        "name": "reduced-flight",
+        "value": "immediate reposition; opacity .35 → 1; .25s; power1.out",
+        "purpose": "Reduced-motion alternate path; arrival follows completion."
+      },
+      {
+        "name": "control-transition",
+        "value": ".16s",
+        "purpose": "Primary action transform and brightness."
+      },
+      {
+        "name": "idle-traveler",
+        "value": "5s ease-in-out infinite; translateY(-9px); rotate ±1deg",
+        "purpose": "Idle balloon drift, stopped during travel and disabled for reduced motion."
+      },
+      {
+        "name": "world-travel",
+        "value": "48 viewport heights across 2000 points; 2.4 viewport heights per 100 points",
+        "purpose": "Long upward expedition through eight overlapping regions, derived from score by world-math.js."
+      },
+      {
+        "name": "world-overlap",
+        "value": ".65 viewport height; soft lower-edge mask",
+        "purpose": "Crossfades between neighboring scene panels while nearby-image loading bounds active work."
+      },
+      {
+        "name": "level-state-transition",
+        "value": "opacity .2s, transform .2s; active translateX(4px), mobile 2px",
+        "purpose": "Earned answer-tier state; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "700px"
+      },
+      {
+        "name": "short-desktop",
+        "value": "(max-height:680px) and (min-width:701px)"
+      },
+      {
+        "name": "short-flight",
+        "value": "(max-height:600px) and (min-width:701px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Tactile amber start and continuation action.",
+      "html": "<button class=\"ds-primary\">Næste spørgsmål</button>",
+      "css": ".ds-primary{display:flex;align-items:center;justify-content:center;gap:22px;width:100%;min-height:58px;padding:15px 22px;border:0;border-radius:12px;background:linear-gradient(#ffd888,#f9bb53);color:#483019;font:900 17px Nunito,Arial,sans-serif;box-shadow:inset 0 2px 1px #fff0ba,0 4px 1px #966232,0 8px 16px #17283b55;cursor:pointer;transition:transform .16s,filter .16s}.ds-primary:hover{filter:brightness(1.08);transform:translateY(-2px)}.ds-primary:active{transform:translateY(2px);box-shadow:inset 0 2px 1px #fff0ba,0 1px 1px #966232,0 3px 8px #17283b55}.ds-primary:focus-visible{outline:3px solid #fff7ca;outline-offset:4px}.ds-primary:disabled{opacity:.5;cursor:default}@media(hover:none){.ds-primary:hover{transform:none}}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet supporting action beside the primary.",
+      "html": "<button class=\"ds-secondary\">Flyv igen</button>",
+      "css": ".ds-secondary{background:#31505a;color:#f7e5bf;border:0;border-radius:10px;padding:12px 17px;font:800 13px Nunito,Arial,sans-serif;white-space:nowrap;cursor:pointer}.ds-secondary:hover{background:#466873}.ds-secondary:focus-visible{outline:3px solid #fff7ca;outline-offset:4px}.ds-secondary:disabled{opacity:.5;cursor:default}"
+    },
+    {
+      "name": "Utility icon",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Named utility action with a rounded inline SVG.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Sådan spiller du\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M9.5 8a2.7 2.7 0 1 1 4 2.4c-1 .5-1.5 1-1.5 2.6M12 16.5v.1\"/></svg></button>",
+      "css": ".ds-icon{min-width:44px;min-height:44px;border:0;border-radius:10px;display:grid;place-items:center;background:#18323fe6;color:var(--cream,#fff6de);box-shadow:0 4px 12px #0003;cursor:pointer;transition:transform .15s,background .15s}.ds-icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ds-icon:hover{transform:translateY(-2px);background:#294958}.ds-icon:focus-visible{outline:3px solid #fff7ca;outline-offset:4px}@media(hover:none){.ds-icon:hover{transform:none}}@media(prefers-reduced-motion:reduce){.ds-icon{transition:none}}"
+    },
+    {
+      "name": "Answer field",
+      "kind": "input",
+      "refersTo": "answer-field",
+      "description": "Cream field and an inset amber submit action.",
+      "html": "<label class=\"ds-label\" for=\"ds-answer\">DIT MEST UALMINDELIGE SVAR</label><div class=\"ds-field\"><input id=\"ds-answer\" placeholder=\"Dit niche-svar…\"><button aria-label=\"Giv mig opdrift\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 20V4m-6 6 6-6 6 6\"/></svg></button></div>",
+      "css": ".ds-label{display:block;font:900 11px Nunito,Arial,sans-serif;letter-spacing:.7px;margin-bottom:7px;color:#bdd0cd}.ds-field{display:flex;align-items:center;background:#fff5dc;border-radius:12px;padding:5px;box-shadow:0 2px 5px #0d233333}.ds-field:focus-within{box-shadow:0 0 0 3px #f8c86a66}.ds-field input{width:100%;min-width:0;background:none;border:0;color:#293c40;outline:none;padding:12px 13px;font:800 19px Nunito,Arial,sans-serif;caret-color:#b66f2f;min-height:48px}.ds-field input::placeholder{color:#627779;font-size:16px;font-weight:500}.ds-field button{background:#f8c268;border:0;width:49px;height:49px;flex:none;display:grid;place-items:center;border-radius:9px;color:#493426;box-shadow:inset 0 1px 0 #fff0b9;cursor:pointer}.ds-field button:hover{background:#ffda91}.ds-field button:focus-visible{outline:3px solid #fff7ca;outline-offset:4px}.ds-field svg{width:25px;height:25px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Game modes",
+      "kind": "nav",
+      "refersTo": "selected-mode",
+      "description": "Two mutually exclusive modes in a compact dark tray.",
+      "html": "<nav class=\"ds-modes\" aria-label=\"Spiltype\"><button aria-pressed=\"true\">Dagens tur</button><button aria-pressed=\"false\">Fri flyvning</button></nav>",
+      "css": ".ds-modes{display:flex;gap:5px;width:max-content;background:#18323fe6;padding:5px;border-radius:12px;box-shadow:0 4px 16px #0003}.ds-modes button{min-height:39px;padding:8px 18px;border:0;border-radius:8px;font:800 13px Nunito,Arial,sans-serif;color:#e5e9df;background:none;cursor:pointer}.ds-modes button[aria-pressed=true]{background:var(--cream,#fff6de);color:var(--ink,#263b45);box-shadow:0 2px 5px #0002}.ds-modes button[aria-pressed=false]:hover{background:#ffffff13}.ds-modes button:focus-visible{outline:3px solid #fff7ca;outline-offset:4px}@media(max-width:700px){.ds-modes{padding:4px;background:#173846f5}.ds-modes button{font-size:12px;min-height:40px;padding:7px 18px;white-space:nowrap}}"
+    },
+    {
+      "name": "Question panel",
+      "kind": "card",
+      "refersTo": "question-panel",
+      "description": "Temporary control dock over the illustrated world.",
+      "html": "<section class=\"ds-dock\"><div class=\"ds-round\"><span>SPØRGSMÅL 1 AF 20</span><span>0 POINT</span></div><h2>Nævn en europæisk hovedstad.</h2><p>Hovedstæder i Europa, inklusive Cypern, transkontinentale lande og Kaukasus. Ikke delstater.</p></section>",
+      "css": ".ds-dock{max-width:564px;padding:24px 28px 19px;background:#193643f5;border-radius:18px;box-shadow:0 13px 40px #0a1b3466,inset 0 1px 0 #a6c3c32b;color:#fff4de;font-family:Nunito,Arial,sans-serif}.ds-round{display:flex;justify-content:space-between;gap:12px;font-size:11px;font-weight:900;letter-spacing:.5px;color:#a8c6c9;margin-bottom:12px}.ds-round span:last-child{color:var(--amber,#ffcb69)}.ds-dock h2{font:28px/1.15 Lilita,sans-serif;color:#fff2d3;letter-spacing:.2px;margin:0 0 9px;text-wrap:balance}.ds-dock p{font-size:12px;line-height:1.5;color:#c0d5d6;margin:0 0 14px}@media(max-width:700px){.ds-dock{padding:21px 19px 12px;border-radius:16px}.ds-dock h2{font-size:25px;line-height:1.13}.ds-dock p{line-height:1.45}}"
+    },
+    {
+      "name": "Run progress",
+      "kind": "custom",
+      "refersTo": "progress-pip",
+      "description": "Twenty circular markers: completed, current and remaining.",
+      "html": "<div class=\"ds-progress\" role=\"img\" aria-label=\"Spørgsmål 4 af 20\"><i class=\"ds-pip ds-done\"></i><i class=\"ds-pip ds-done\"></i><i class=\"ds-pip ds-done\"></i><i class=\"ds-pip ds-current\"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i><i class=\"ds-pip \"></i></div>",
+      "css": ".ds-progress{display:flex;gap:5px;justify-content:center}.ds-pip{display:block;width:12px;height:12px;border-radius:50%;flex:none;background:#51717b;box-shadow:inset 0 1px 1px #a5c5c344,0 2px 5px #10212a55}.ds-current{background:#fff1bf}.ds-done{background:#f7bd5f}@media(max-width:700px){.ds-pip{width:9px;height:9px}}"
+    },
+    {
+      "name": "Flight level ladder",
+      "kind": "custom",
+      "refersTo": "flight-level-ladder",
+      "description": "All six answer tiers remain readable during flight; the earned tier stays marked after arrival.",
+      "html": "<aside class=\"ds-ladder\" aria-label=\"Niveauer for dit svar\"><div class=\"ds-ladder-title\">DIT SVARS NIVEAU</div><div class=\"ds-track\"><div></div></div><ol><li class=\"ds-rank\" style=\"--rank:#f5a3af\"><span class=\"ds-medal\">6</span><div><b>Legendarisk</b><small>100 point</small></div></li><li class=\"ds-rank\" style=\"--rank:#f5c49c\"><span class=\"ds-medal\">5</span><div><b>Ultra rare</b><small>85 point</small></div></li><li class=\"ds-rank ds-passed ds-current\" style=\"--rank:#dce9a3\" aria-current=\"step\"><span class=\"ds-medal\">4</span><div><b>Rare</b><small>60 point</small></div></li><li class=\"ds-rank ds-passed\" style=\"--rank:#badbb1\"><span class=\"ds-medal\">3</span><div><b>Mid</b><small>30 point</small></div></li><li class=\"ds-rank ds-passed\" style=\"--rank:#9dc6b4\"><span class=\"ds-medal\">2</span><div><b>Øvet</b><small>15 point</small></div></li><li class=\"ds-rank ds-passed\" style=\"--rank:#a5bbc7\"><span class=\"ds-medal\">1</span><div><b>Begynder</b><small>10 point</small></div></li></ol><div class=\"ds-verdict\">Rare</div></aside>",
+      "css": ".ds-ladder{position:relative;width:185px;padding:20px 17px 17px;color:#e5e9df;background:#122936e8;border-radius:15px;box-shadow:0 8px 28px #0004;font-family:Nunito,Arial,sans-serif}.ds-ladder-title{font:800 11px Nunito,Arial,sans-serif;letter-spacing:.6px;color:#b7c9c9;margin-bottom:13px}.ds-ladder ol{position:relative;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}.ds-rank{display:flex;align-items:center;gap:11px;min-height:46px;transition:opacity .2s,transform .2s}.ds-medal{display:grid;place-items:center;width:30px;height:30px;flex:none;border-radius:50%;font-size:12px;font-weight:900;background:#294752;color:#bdd1cd;box-shadow:0 2px 4px #0003}.ds-rank b{font-size:13px;font-weight:900;display:block;line-height:1.2;color:#b2c7cb}.ds-rank small{font-size:11px;display:block;color:#a6c0c5;margin-top:3px}.ds-passed .ds-medal{background:var(--rank);color:#203440}.ds-passed b{color:#e1ece5}.ds-current{transform:translateX(4px)}.ds-current b{color:var(--rank)}.ds-current .ds-medal{box-shadow:0 0 0 4px #eff9d42e,0 3px 6px #0004}.ds-track{position:absolute;top:72px;bottom:81px;left:31px;width:2px;background:#49636a;overflow:hidden}.ds-track>div{height:100%;background:#ffce7e;transform-origin:bottom;transform:scaleY(.6)}.ds-verdict{margin-top:14px;padding-top:12px;border-top:1px solid #a5bdb52b;color:#ffd68c;font-size:12px;font-weight:900;min-height:29px}@media(max-width:700px){.ds-ladder{width:112px;padding:13px 9px 12px;border-radius:12px}.ds-ladder-title{letter-spacing:0;line-height:1.2;margin-bottom:10px}.ds-ladder ol{gap:6px}.ds-rank{min-height:36px;gap:6px}.ds-medal{width:22px;height:22px;font-size:11px}.ds-rank b{font-size:11px}.ds-rank small{margin-top:2px}.ds-track{left:19px;top:66px;bottom:64px}.ds-verdict{font-size:11px;padding-top:9px;margin-top:10px}.ds-current{transform:translateX(2px)}}@media(prefers-reduced-motion:reduce){.ds-rank{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Painted Updraft",
+    "overview": "OPDRIFT is a continuous painted expedition with compact, tactile game controls. Mountain scenery and foreground clouds give way to floating islands, asteroid belts, ice crystals, planetary rifts and galaxies; the balloon and pilot remain the traveler through that world. The illustration supplies atmosphere, while warm cream text and amber controls keep decisions readable.\n\nThis is a standalone Danish game identity. The confirmed direction rejects generic marketing-page framing and horizontal tier lines as a substitute for a universe. A control dock temporarily overlays the world; during actual flight the question and menus disappear while a six-tier ladder tracks the answer’s earned ascent, then the arrival card appears after deceleration.",
+    "keyCharacteristics": [
+      "A full-viewport illustrated world with a separate balloon and foreground cloud planes.",
+      "Rounded display lettering, compact readable supporting text, and tactile amber actions.",
+      "Dark teal control surfaces that preserve the painted scene around them.",
+      "Long upward travel crosses overlapping painted regions, with a readable side ladder showing earned answer tiers and a reduced-motion alternative."
+    ],
+    "rules": [
+      {
+        "name": "The Amber Action Rule",
+        "body": "Use the warm amber family for the primary action and earned-score emphasis; retain dark teal as the supporting control surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Readable Telemetry Rule",
+        "body": "Functional supporting text stays at or above the implemented 11px floor, including mobile chart labels and question progress.",
+        "section": "typography"
+      },
+      {
+        "name": "The World Leads Rule",
+        "body": "During actual flight, hide the question dock and header; show the arrival result and continuation only after the camera stops.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** extend the existing painted universe with the islands, orbit, ice and rift scene assets, retaining the transparent traveler and separate clouds.",
+      "**Do** preserve the visual distinction between cream answer fields, amber primary actions and dark teal panels.",
+      "**Do** keep 20 progress pips and the result chart in two rows of ten.",
+      "**Do** keep all six answer tiers visible during flight and preserve the attained tier at arrival.",
+      "**Do** retain visible keyboard focus, accessible control names and the reduced-motion flight path.",
+      "**Do** describe rarity as editorial estimates and show only real local history."
+    ],
+    "donts": [
+      "**Don't** replace the painted journey with horizontal tier lines or generic marketing-page sections.",
+      "**Don't** keep questions or menus over the actual flight.",
+      "**Don't** invent player statistics, popularity percentages or a global leaderboard.",
+      "**Don't** inherit the home title’s hard offset extrusion as a general shadow token."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="da"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#193f53"><meta name="description" content="Et dansk trivia-eventyr fra jorden til galakserne. Find et sjældent svar på 20 sekunder, og se, hvor langt din viden kan flyve."><title>OPDRIFT — Tænk smalt. Flyv højt.</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="preload" as="image" href="assets/universe.png"><link rel="preload" as="font" type="font/ttf" href="assets/lilita-one.ttf" crossorigin><link rel="stylesheet" href="style.css">
+</head><body>
+<div id="flight-scene" class="flight-scene" aria-label="Din rejse fra jorden ud i universet">
+ <div class="world-viewport" aria-hidden="true"><div id="world-image" class="world-image"><img src="assets/universe.png" width="724" height="2172" alt="" fetchpriority="high"></div><div class="cloud-plane"><img src="assets/clouds-v2.png" alt="" width="1536" height="1024"></div><div class="cloud-plane"><img src="assets/clouds-v2.png" alt="" width="1536" height="1024"></div><div class="cloud-plane"><img src="assets/clouds-v2.png" alt="" width="1536" height="1024"></div><div class="world-light"></div><div id="star-dust" class="star-dust"></div><div class="world-vignette"></div></div>
+ <div id="balloon-position" class="balloon-position"><div class="balloon-float"><img class="balloon" src="assets/balloon.png" width="1254" height="1254" alt="Din luftballon med en lille opdagelsesrejsende" fetchpriority="high"></div><div id="lift-burst" class="lift-burst"></div></div>
+ <div class="altitude-label"><span>DIN FLYVEHØJDE</span><strong><span id="height-value">0</span><small> m</small></strong></div>
+ <div id="world-zone" class="world-zone">Afgang fra Jorden</div>
+ <div id="flight-passing" class="flight-passing" aria-live="off"></div>
+</div>
+<header class="header">
+ <a href="./" class="brand" aria-label="Opdrift, forsiden"><svg viewBox="0 0 36 44" aria-hidden="true"><path d="M18 2C0 2 0 21 12 31h12C36 21 36 2 18 2Z" fill="currentColor"/><path d="M18 2c-8 7-8 19 0 29M18 2c8 7 8 19 0 29" fill="none" stroke="#392b32" stroke-width="1.5"/><path d="m12 31 3 7h6l3-7M14 39h8v4h-8z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span>OPDRIFT</span></a>
+ <nav class="mode-switch" aria-label="Spiltype"><button id="daily-tab" class="selected" aria-pressed="true">Dagens tur</button><button id="practice-tab" aria-pressed="false">Fri flyvning</button></nav>
+ <div class="tools"><button id="sound" class="icon-button" aria-label="Slå lyd til" title="Slå lyd til"></button><button id="stats" class="icon-button" aria-label="Din flyvebog" title="Din flyvebog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20v-7m7 7V5m7 15V9"/></svg></button><button id="help" class="icon-button" aria-label="Sådan spiller du" title="Sådan spiller du"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 8a2.7 2.7 0 1 1 4 2.4c-1 .5-1.5 1-1.5 2.6M12 16.5v.1"/></svg></button></div>
+</header>
+<main id="main"><div id="game-content" class="game-content"></div></main>
+<footer class="footer"><span>20 SEKUNDER. 20 CHANCER. HELE UNIVERSET.</span><button id="about">Om spillet & pointene</button></footer>
+<dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span>Flyvehåndbogen</span><button id="close-dialog" class="icon-button" aria-label="Luk"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button></div><div id="dialog-content"></div></dialog>
+<div id="toast" class="toast" role="status"></div>
+<script type="module" src="app.js"></script>
+</body></html>

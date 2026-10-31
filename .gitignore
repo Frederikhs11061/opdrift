@@ -1,0 +1,19 @@
+# Installed dependencies and machine-local tools
+node_modules/
+.agents/
+.codex/
+
+# Local design caches, review captures and runtime state
+.impeccable/*
+!.impeccable/design.json
+!.impeccable/asset-prompts/
+
+# Secrets, logs and editor/OS files
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
